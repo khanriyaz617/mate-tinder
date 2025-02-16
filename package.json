@@ -1,0 +1,17 @@
+{
+  "name": "mate-tinder",
+  "version": "1.0.0",
+  "description": "Social connecting medium for developers community.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Riyaz Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+
+
