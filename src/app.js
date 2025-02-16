@@ -2,12 +2,13 @@ const express = require("express");
 
 const app = express();
 
-app.use("/test", (req, res)=>{
-    console.log('Welcome Me! I am coming from server world !');
+
+app.get("/user", (req, res)=>{
     res.send("Welcome Me! I am coming from server world !")
 })
-app.use("/hello", (req, res)=>{
-    res.send("Hello hello hello! Perfect")
+
+app.post("/user", (req, res)=>{
+    res.send("Data saved successfully.");
 })
 
 app.listen(7777, ()=>{
